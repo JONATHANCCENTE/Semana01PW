@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio Web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+JP:wght@100..900&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <img src="img/2.png" alt="Logo de Jonathan Ccente" class="logo" width="50">
+        <h1> Innovación en Sistemas por Jonathan Ccente </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca de </a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="centered-image">
+            <img src="img/1.JPG" alt="Imagen de referencia" width="400">
+        </div>
+
+
+        <section id="home">
+            <h2>Inicio</h2>
+            <p>¡Hola y bienvenido a mi blog! Soy Jonathan Ccente, y aquí comparto mi experiencia y conocimientos en el
+                diseño de sistemas de información. Este espacio está dedicado a explorar estrategias, mejores prácticas
+                y tendencias actuales en la creación y optimización de sistemas informáticos.</p>
+            <p>En este blog encontrarás artículos sobre los últimos desarrollos en la tecnología de sistemas, estudios
+                de caso, y consejos prácticos para mejorar la eficiencia y efectividad de los sistemas de información en
+                diversas organizaciones.</p>
+        </section>
+
+        <section id="about">
+            <h2>Acerca de</h2>
+            <p>Mi nombre es Jonathan Ccente, y tengo una profunda pasión por el diseño y desarrollo de sistemas de
+                información. Con años de experiencia en el campo, me especializo en crear soluciones innovadoras que
+                optimizan la gestión y el flujo de información dentro de las organizaciones.</p>
+            <p>Mi objetivo con este blog es compartir mi conocimiento y ayudar a otros profesionales y entusiastas a
+                comprender mejor el mundo del diseño de sistemas. A través de mis publicaciones, espero proporcionar
+                insights valiosos y fomentar una comunidad de aprendizaje y crecimiento en este campo dinámico.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta, comentario o deseas colaborar en algún proyecto, no dudes en ponerte en
+                contacto conmigo. Puedes utilizar el formulario a continuación o enviarme un correo electrónico a <a
+                    href="mailto:jonathan@ejemplo.com">jccente@gmail.com</a>.</p>
+        </section>
+
+        <div class="form-container">
+            <form action="/submit" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 Creado por Jonathan Ccente Ch.</p>
+    </footer>
+
+</body>
+
+</html>
